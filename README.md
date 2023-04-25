@@ -44,3 +44,11 @@ CONTAINER ID   IMAGE          COMMAND              CREATED          STATUS      
 ```
 % docker rm -f 2019348f44f7
 ```
+
+## Errores y avisos conocidos en la validación del código html
+```
+% find . -name *.html -exec echo \; -exec echo {} \; -exec tidy -q -e --doctype html5 {} \;
+./public/tema-9/codigo1.html
+line 27 column 16 - Warning: <a> attribute "href" lacks value
+line 27 column 40 - Warning: <a> attribute "href" lacks value
+```

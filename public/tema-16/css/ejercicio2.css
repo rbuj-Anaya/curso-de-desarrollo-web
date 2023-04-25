@@ -1,13 +1,16 @@
-body{
-	font-size:16px;
-	font-family:tahoma;
-	margin:40px;
+body {
+    font-size: 16px;
+    font-family: tahoma;
+    margin: 40px;
 }
-h1{
-	text-align:center;
+
+h1 {
+    text-align: center;
 }
-input, select{
-	margin:8px;
-	font-size:16px;
-	font-family:tahoma;
+
+input,
+select {
+    margin: 8px;
+    font-size: 16px;
+    font-family: tahoma;
 }

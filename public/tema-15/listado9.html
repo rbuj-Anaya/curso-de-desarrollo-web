@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>Arrays en JavaScript</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8">
-	<style type="text/css">
-		body {
-			padding:40px;
-			font-size:20px;
-			font-family:helvetica;
-		}
-	</style>
-	<script type="text/javascript">
-	var vector1=new Array("Cary Grant","Ava Gardner","Al Pacino");
-	var vector2=new Array(1904,1922,1940);
-	var vectorFinal=vector1.concat(vector2);
-	
-	//haciendo uso de join, imprimimos en pantalla el resultado de la concatenación de vectores
-	document.write("Contenido de vectorFinal: "+vectorFinal.join()+"<br>");
+    <title>Arrays en JavaScript</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style>
+        body {
+            padding: 40px;
+            font-size: 20px;
+            font-family: helvetica;
+        }
+    </style>
+    <script>
+        var vector1 = new Array("Cary Grant", "Ava Gardner", "Al Pacino");
+        var vector2 = new Array(1904, 1922, 1940);
+        var vectorFinal = vector1.concat(vector2);
 
-	//ordenamos vectorFinal con sort y almacenamos el resultado en vectorOrdenado
-	var vectorOrdenado=vectorFinal.sort();
-	document.write("Contenido de vectorOrdenado: "+vectorOrdenado.join()+"<br>");
-	
-	//invertimos los datos de vectorOrdenado con reverse
-	var vectorInvertido=vectorOrdenado.reverse();
-	document.write("Contenido de vectorInvertido: "+vectorInvertido.join()+"<br>");
-</script>
+        //haciendo uso de join, imprimimos en pantalla el resultado de la concatenación de vectores
+        document.write("Contenido de vectorFinal: " + vectorFinal.join() + "<br>");
 
-</head>
+        //ordenamos vectorFinal con sort y almacenamos el resultado en vectorOrdenado
+        var vectorOrdenado = vectorFinal.sort();
+        document.write("Contenido de vectorOrdenado: " + vectorOrdenado.join() + "<br>");
+
+        //invertimos los datos de vectorOrdenado con reverse
+        var vectorInvertido = vectorOrdenado.reverse();
+        document.write("Contenido de vectorInvertido: " + vectorInvertido.join() + "<br>");
+    </script>
+</head>
 <body>
-
 </body>
 </html>

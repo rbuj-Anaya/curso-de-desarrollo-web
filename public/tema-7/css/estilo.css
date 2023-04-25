@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana;
+    font-size: 10px;
+    color: black;
+}
+
+p {
+    text-align: justify;
+    color: #CCCCCC;
+}
+
+div {
+    border: 1px solid red;
+}
+
+div .parrafo {
+    text-align: center;
+    font-size: 8px;
+}

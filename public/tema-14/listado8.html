@@ -1,34 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>Estructuras iterativas</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8">
-	<style type="text/css">
-		body {
-			padding:40px;
-			font-size:20px;
-			font-family:helvetica;
-		}
-	</style>
-<script type="text/javascript">
-	var encontrado=false;
-	var numero=5;
-	contador=0;
-	while (!encontrado){
-		document.write("Comprobando el número "+contador+"<br>");
-		if (numero==contador){
-			encontrado=true;
-			document.write("Numero encontrado !!, fin del bucle");
-		}
-		else{
-			document.write("Numero no encontrado, probamos con el siguiente número<br>");
-			contador++;
-		}
+    <title>Estructuras iterativas</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style>
+        body {
+            padding: 40px;
+            font-size: 20px;
+            font-family: helvetica;
+        }
+    </style>
+    <script>
+        var encontrado = false;
+        var numero = 5;
+        contador = 0;
 
-	}
-</script>
+        while (!encontrado) {
+            document.write("Comprobando el número " + contador + "<br>");
+            if (numero == contador) {
+                encontrado = true;
+                document.write("Numero encontrado !!, fin del bucle");
+            }
+            else {
+                document.write("Numero no encontrado, probamos con el siguiente número<br>");
+                contador++;
+            }
+        }
+    </script>
 </head>
 <body>
-
 </body>
 </html>

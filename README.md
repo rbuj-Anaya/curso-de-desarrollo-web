@@ -4,10 +4,23 @@
 ## Introducción
 En este repositorio encontrarás todos los ejemplos del libro [“Curso de desarrollo Web: HTML, CSS y JavaScript.” de _Anaya Multimedia_](https://anayamultimedia.es/libro/manuales-imprescindibles/curso-de-desarrollo-web-html-css-y-javascript-edicion-2021-mario-rubiales-gomez-9788441544147/).
 
-## Instalación
-- [Docker](https://www.docker.com/)
+## Enlaces externos
+- HTML
+  - [Tutorial de HTML](https://www.w3schools.com/html/default.asp)
+  - [Listado de etiquetas HTML](https://www.w3schools.com/tags/default.asp) 
+  - [Validación de (X)HTML](https://validator.w3.org/)
+- CSS
+  - [Tutorial de CSS](https://www.w3schools.com/css/default.asp)
+  - [Listado de propiedades CSS](https://www.w3schools.com/cssref/index.php)
+  - [Validación de CSS](https://jigsaw.w3.org/css-validator/)
+- JavaScript
+  - [Tutorial de JavaScript](https://www.w3schools.com/js/default.asp)
+  - [Listado de propiedades y métodos de todos los objetos](https://www.w3schools.com/jsref/default.asp)
 
 ## Visualización en un contenedor
+
+### Instalación herramientas necesarias
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ### Construir el contenedor
 Mediante la siguiente instrucción se creará un contenedor con la imagen oficial de docker del servidor web apache 2.4 (httpd 2.4) en Alpine Linux (distro ligera de GNU/Linux), y se copiarán los [ficheros de los ejemplos](public). Consulte el [fichero Dockerfile](Dockerfile) para obtener más información.
